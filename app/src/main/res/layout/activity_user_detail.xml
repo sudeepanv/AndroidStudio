@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash"
+    tools:context=".UserDetail">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="top"
+        android:text="Details"
+        android:textColor="@color/red"
+        android:textSize="18dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="#33000000"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Name:"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/name1"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Register no:"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/no1"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Present Kyu:"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textSize="20sp"
+                android:id="@+id/pk1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  DOB:"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/dob1"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/signupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:text="Version 1.0"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>
